@@ -1,4 +1,6 @@
-![Alt text](image.png)
+<img src="image.png" style="border-radius: 25px">
+
+---
 # Equipe - KDOlink
 ### Projeto PDV Cubos Academy - Sprint 1:
 
