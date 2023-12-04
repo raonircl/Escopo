@@ -1,48 +1,30 @@
 <img src="image.png" style="border-radius: 25px">
 
+**Projeto PDV Cubos Academy - Sprint 1:**
+
 ---
+Você já imaginou simplificar a gestão do seu Ponto de Venda (PDV) de forma eficiente e descomplicada? Apresentamos o nosso projeto inovador da Cubos Academy, desenvolvido para transformar a maneira como você gerencia o seu negócio.
 
-# Equipe - KDOlink
-### Projeto PDV Cubos Academy - Sprint 1:
+**O que é o PDV Cubos Academy?**
+É a solução perfeita para agilizar as operações do seu PDV. Estamos focados na criação de uma ferramenta inicial que vai revolucionar a forma como você lida com usuários, produtos e categorias.
 
-**Objetivo do Projeto:**
-Desenvolver uma ferramenta para facilitar a gestão de um Ponto de Venda (PDV), sendo a primeira etapa do projeto.
+**O que oferecemos:**
+1. **Cadastro Simplificado:** Crie contas de usuário de forma fácil e segura, garantindo informações únicas para cada pessoa.
+2. **Login Intuitivo:** Acesse o sistema rapidamente com seu email e senha, proporcionando uma experiência eficiente.
+3. **Gestão de Categorias:** Visualize e gerencie todas as categorias dos seus produtos de maneira prática.
+4. **Perfil Personalizado:** Atualize suas informações pessoais e tenha um perfil que reflete quem você é.
 
-### 1.1 Banco de Dados
+**Como funciona:**
+Utilizamos tecnologias avançadas, como PostgreSQL e Node.js, para garantir um desempenho seguro e confiável. A aplicação é hospedada online, proporcionando acesso a qualquer momento e de qualquer lugar.
 
-- Criar um sistema de banco de dados para armazenar informações essenciais, como usuários e categorias de produtos.
-- Utilizar um banco de dados online para garantir segurança e acessibilidade.
-- Representar valores monetários em centavos para precisão.
-  
-### 1.2 Funcionalidades Iniciais
+**Benefícios:**
+- **Facilidade:** Simplificamos processos para que você possa se concentrar no que realmente importa: o seu negócio.
+- **Segurança:** Garantimos a segurança das suas informações através de práticas avançadas de criptografia.
+- **Acessibilidade:** Com a aplicação online, você tem acesso às funcionalidades onde quer que esteja.
 
-#### Listagem de Categorias
-- Permitir a visualização de todas as categorias de produtos disponíveis.
+**Próximos passos:**
+Este é apenas o começo! Planejamos adicionar mais funcionalidades e aprimorar ainda mais a experiência do usuário. Junte-se a nós nesta jornada de transformação digital para o seu PDV.
 
-#### Cadastro de Usuários
-- Criar contas de usuário com informações básicas, como nome, email e senha.
-- Garantir segurança através de senhas criptografadas.
-- Evitar duplicatas de emails para garantir unicidade.
-
-#### Login de Usuários
-- Possibilitar o acesso de usuários cadastrados mediante email e senha.
-- Gerar um código de acesso seguro para autenticação.
-
-#### Perfil do Usuário
-- Visualizar informações pessoais após o login.
-- Atualizar detalhes do perfil, como nome, email e senha.
-
-### 1.3 Tecnologias Utilizadas
-
-- **Banco de Dados:** PostgreSQL, ElephantSQL.
-- **Desenvolvimento:** Node.js, Express.
-- **Ferramentas:** VSCode, Insomnia.
-  
-### 1.4 Deploy
-
-- Hospedar o banco de dados no ElephantSQL.
-- Disponibilizar a aplicação através do serviço Cyclic.
-
-***Link da Aplicação:*** [https://uptight-slug-sarong.cyclic.app/](https://uptight-slug-sarong.cyclic.app/)
+O futuro da gestão de PDV está aqui, e é feito para simplificar. Venha conosco no Projeto PDV Cubos Academy!
 
 ---
