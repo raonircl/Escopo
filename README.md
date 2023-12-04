@@ -118,7 +118,6 @@ Esta será a rota usada para cadastrar novos usuários no sistema.
 {
     "nome": "Nome do Usuário",
     "email": "usuario@email.com",
-    "senha": "senha123"
 }
 ```
 ***Status Codes:***
