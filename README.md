@@ -114,6 +114,12 @@ Esta será a rota usada para cadastrar novos usuários no sistema.
     "email": "usuario@email.com",
     "senha": "senha123"
 }
+// saída
+{
+    "nome": "Nome do Usuário",
+    "email": "usuario@email.com",
+    "senha": "senha123"
+}
 ```
 ***Status Codes:***
 - 201(Created): Usuário cadastrado com sucesso.
@@ -129,7 +135,7 @@ Esta será a rota usada para cadastrar novos usuários no sistema.
 - Verificar se o email já existe na base de dados de usuários.
 - o email deverá ser salvo com todas as letras minúsculas no banco de dados.
 - Criptografar a senha antes de persistir no banco de dados.
-- Em caso de sucesso, não deverá retornar o objeto no corpo da requisição, apenas o status de confirmação.
+- Em caso de sucesso, deverá retornar o objeto no corpo da requisição e status de confirmação.
 - Validar campos obrigatórios.
 
 ***1.2.3 - Efetuar Login:***
@@ -206,6 +212,12 @@ Esta rota permitirá que o usuário logado atualize informações do próprio ca
 - O campo email no banco de dados deve ser único para cada registro, não permitindo dois usuários possuírem o mesmo email.
 
 ```javascript
+// entrada
+{
+    "nome": "Nome do Usuário",
+    "email": "usuario@email.com"
+    "senha": "123456"
+}
 // saída
 {
     "nome": "Nome do Usuário",
