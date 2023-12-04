@@ -15,7 +15,7 @@
 - Criar o banco de dados online.
 - Qualquer valor monetário deverá ser representado em centavos, ex.: R$ 10,00 = 1000.
 - Criar a tabela "usuarios".
-- A tabela "usuarios" deverá conter os campos: id (auto incremento e chave primária, não permitindo alterações após criado), nome (limite de 100 caracteres), email (o email deverá ser único e ter limite de 100 caracteres) e senha (limite de 16 caracteres).
+- A tabela "usuarios" deverá conter os campos: id (auto incremento e chave primária, não permitindo alterações após criado), nome (limite de 100 caracteres), email (o email deverá ser único e ter limite de 100 caracteres) e senha(mínimo de 6 caracteres).
 - Criar a tabela "categorias".
 - A tabela "categorias" deverá conter os campos: id (auto incremento) e descricao (com limite de até 50 caracteres).
 - Inserir categorias no banco de dados:
@@ -125,8 +125,9 @@ Esta será a rota usada para cadastrar novos usuários no sistema.
 - O corpo (body) deverá conter o objeto que será persistido no banco.
 - O nome deverá ser uma string. Também tratar a entrada, por exemplo, se o usuário digitar: JOaO silvA, salvar no banco de dados como Joao Silva.
 - O email deverá ser uma string, conter um "@" e depois um ".".
-- Adicionar validações para garantir que o campo senha atenda os requisitos mínimos (comprimento 16 caracteres).
+- Adicionar validações para garantir que o campo senha atenda os requisitos mínimos (mínimo 6 caracteres).
 - Verificar se o email já existe na base de dados de usuários.
+- o email deverá ser salvo com todas as letras minúsculas no banco de dados.
 - Criptografar a senha antes de persistir no banco de dados.
 - Em caso de sucesso, não deverá retornar o objeto no corpo da requisição, apenas o status de confirmação.
 - Validar campos obrigatórios.
@@ -224,6 +225,9 @@ Esta rota permitirá que o usuário logado atualize informações do próprio ca
 - O corpo (body) deverá conter um objeto com as propriedades do usuário.
 - Não devemos enviar conteúdo na resposta, apenas o status.
 - Validar campos obrigatórios.
+- Adicionar validações para garantir que o campo senha atenda os requisitos mínimos (mínimo 6 caracteres).
+- o email deverá ser salvo com todas as letras minúsculas no banco de dados.
+- garantir que o nome seja tratado na entrada antes persisti no banco de dados.
 
 ***Efetuar o Deploy:***
 - Banco de dados hospedado no ElephantSQL.
